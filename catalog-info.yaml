@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "test4"
+  annotations:
+    github.com/project-slug: faranda26/test4
 spec:
   type: service
   owner: user:guest
